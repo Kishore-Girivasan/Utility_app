@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/location"
+    tools:context=".Location">
+   <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="400dp"
+        style="@style/Widget.AppCompat.ListView.DropDown">
+        <AutoCompleteTextView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/actv"
+            android:hint="Location"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="1dp"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+</LinearLayout>-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7F7F7"
+    tools:context=".Location">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, nice to meet you!"
+        android:layout_marginTop="100dp"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:textColor="#2D185C"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See services around"
+        android:textStyle="bold"
+        android:textColor="#2D185C"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/location_img"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#2D185C"
+        android:hint="Location"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/actv"
+            android:textColorHint="#2D185C"
+            android:padding="13dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>

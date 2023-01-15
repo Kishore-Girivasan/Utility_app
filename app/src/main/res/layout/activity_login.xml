@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/login_avatar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="496dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="27dp"
+            android:hint="Phone number"
+            android:id="@+id/phone_number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone_num">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-360dp"
+            android:layout_marginTop="80dp"
+            android:hint="Password"
+            android:id="@+id/password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="-110dp"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:elevation="0dp"
+            android:backgroundTint="#2D185C"
+            />
+        <Button
+            android:id="@+id/signup_login"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="-360dp"
+            android:text="Don't have an account?"
+            android:textColor="@color/white"
+            android:elevation="0dp"
+            android:backgroundTint="#2D185C"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

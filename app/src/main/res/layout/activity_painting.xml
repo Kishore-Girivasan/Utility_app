@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Painting"
+    android:background="@drawable/painting_pg"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of rooms"
+        android:fontFamily="@font/inria_sans_bold"
+        android:textSize="20sp"
+        android:textColor="#2D185C"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="32dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-15dp"
+        android:layout_marginStart="20dp">
+        <CheckBox
+            android:id="@+id/r1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/inria_sans_bold"
+            android:text="1"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/r2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inria_sans_bold"
+            android:text="2"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/r3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inria_sans_bold"
+            android:text="3"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/r4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inria_sans_bold"
+            android:text="4"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/r5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inria_sans_bold"
+            android:text="5+"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textSize="20sp"
+        android:fontFamily="@font/inria_sans_bold"
+        android:textColor="#2D185C"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:textStyle="bold"/>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="-25dp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/t1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inria_sans_bold"
+                android:text="8AM-10AM"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/t2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inria_sans_bold"
+                android:text="10AM-12PM"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/t3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inria_sans_bold"
+                android:text="12PM-2PM"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/t4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inria_sans_bold"
+                android:text="2PM-5PM"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/t5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inria_sans_bold"
+                android:text="5PM-8PM"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="270dp"
+        android:background="@drawable/confirm"
+        android:id="@+id/confirm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/inria_sans_bold"
+        android:text="**The price depends on the wall size which should be painted which will be calculated directly by our service man."/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<string-array name="pick up type">
+        <item>Pick Up Only(City)</item>
+        <item>Pick Up And Drop(City)</item>
+        <item>Pick Up Only(Town)</item>
+        <item>Pick Up And Drop(Town)</item>
+</string-array>

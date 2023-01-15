@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otp_page"
+    android:background="@drawable/login_avatar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:orientation="horizontal">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="27dp"
+            android:hint="Phone number"
+            android:id="@+id/phone_number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone_num">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-360dp"
+            android:layout_marginTop="80dp"
+            android:hint="OTP"
+            android:id="@+id/enter_otp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="-300dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/otp"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:text="GET OTP"
+                android:textColor="@color/white"
+                android:elevation="0dp"
+                android:backgroundTint="#2D185C"
+                />
+            <Button
+                android:id="@+id/login"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:text="LOGIN"
+                android:textColor="@color/white"
+                android:elevation="0dp"
+                android:backgroundTint="#2D185C"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+

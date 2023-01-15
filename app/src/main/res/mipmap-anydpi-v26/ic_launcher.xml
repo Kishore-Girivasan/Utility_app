@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:width="http://schemas.android.com/tools">
+    <background android:drawable="@drawable/utility_logo" />
+    <foreground android:drawable="@drawable/utility_logo"/>
+
+</adaptive-icon>
